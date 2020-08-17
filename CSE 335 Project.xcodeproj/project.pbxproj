@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56056FDF244F8E750015BD10 /* MyTrailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56056FDE244F8E750015BD10 /* MyTrailsTableViewCell.swift */; };
+		56056FE1244F945C0015BD10 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56056FE0244F945C0015BD10 /* DetailViewController.swift */; };
+		56056FE3244FA68C0015BD10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56056FE2244FA68C0015BD10 /* MapViewController.swift */; };
+		569B86E50112816C9833E457 /* Pods_CSE_335_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593BB115DCC2A4213BAE58C2 /* Pods_CSE_335_Project.framework */; };
+		56C47F1F244FC5C400FF1C1F /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C47F1E244FC5C400FF1C1F /* NearbyViewController.swift */; };
+		56C47F21244FCC2800FF1C1F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C47F20244FCC2800FF1C1F /* CoreLocation.framework */; };
 		56CD329F2426DE680097D76B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD329E2426DE680097D76B /* AppDelegate.swift */; };
 		56CD32A12426DE680097D76B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD32A02426DE680097D76B /* SceneDelegate.swift */; };
 		56CD32A32426DE680097D76B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD32A22426DE680097D76B /* ViewController.swift */; };
 		56CD32A62426DE680097D76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CD32A42426DE680097D76B /* Main.storyboard */; };
 		56CD32A82426DE690097D76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CD32A72426DE690097D76B /* Assets.xcassets */; };
 		56CD32AB2426DE690097D76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CD32A92426DE690097D76B /* LaunchScreen.storyboard */; };
+		56CD32B32426DF180097D76B /* hiking.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 56CD32B22426DF180097D76B /* hiking.jpeg */; };
+		56CD32B72426E1420097D76B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD32B62426E1420097D76B /* Model.swift */; };
+		56CD32B92426E9190097D76B /* AddTrailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD32B82426E9190097D76B /* AddTrailViewController.swift */; };
+		56CD32BB2426EE550097D76B /* MyTrailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD32BA2426EE550097D76B /* MyTrailsViewController.swift */; };
+		56E4677E244E9B6900986322 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56E4677D244E9B6900986322 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2858C8ADE686606790C65613 /* Pods-CSE 335 Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSE 335 Project.debug.xcconfig"; path = "Target Support Files/Pods-CSE 335 Project/Pods-CSE 335 Project.debug.xcconfig"; sourceTree = "<group>"; };
+		56056FDE244F8E750015BD10 /* MyTrailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrailsTableViewCell.swift; sourceTree = "<group>"; };
+		56056FE0244F945C0015BD10 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		56056FE2244FA68C0015BD10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		56C47F1E244FC5C400FF1C1F /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		56C47F20244FCC2800FF1C1F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56CD329B2426DE680097D76B /* CSE 335 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSE 335 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CD329E2426DE680097D76B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56CD32A02426DE680097D76B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,13 @@
 		56CD32A72426DE690097D76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56CD32AA2426DE690097D76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56CD32AC2426DE690097D76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CD32B22426DF180097D76B /* hiking.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiking.jpeg; sourceTree = "<group>"; };
+		56CD32B62426E1420097D76B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		56CD32B82426E9190097D76B /* AddTrailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrailViewController.swift; sourceTree = "<group>"; };
+		56CD32BA2426EE550097D76B /* MyTrailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrailsViewController.swift; sourceTree = "<group>"; };
+		56E4677D244E9B6900986322 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		593BB115DCC2A4213BAE58C2 /* Pods_CSE_335_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSE_335_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AFFD04A02F82B51099CC16 /* Pods-CSE 335 Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSE 335 Project.release.xcconfig"; path = "Target Support Files/Pods-CSE 335 Project/Pods-CSE 335 Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C47F21244FCC2800FF1C1F /* CoreLocation.framework in Frameworks */,
+				569B86E50112816C9833E457 /* Pods_CSE_335_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46731B8A04697F9E2CD12E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C47F20244FCC2800FF1C1F /* CoreLocation.framework */,
+				593BB115DCC2A4213BAE58C2 /* Pods_CSE_335_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56C47F2424500B8800FF1C1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				56CD32A22426DE680097D76B /* ViewController.swift */,
+				56C47F1E244FC5C400FF1C1F /* NearbyViewController.swift */,
+				56CD32B82426E9190097D76B /* AddTrailViewController.swift */,
+				56CD32BA2426EE550097D76B /* MyTrailsViewController.swift */,
+				56056FE0244F945C0015BD10 /* DetailViewController.swift */,
+				56056FE2244FA68C0015BD10 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56C47F2524500BCA00FF1C1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56CD32B62426E1420097D76B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56C47F2624500BED00FF1C1F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				56056FDE244F8E750015BD10 /* MyTrailsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		56CD32922426DE680097D76B = {
 			isa = PBXGroup;
 			children = (
 				56CD329D2426DE680097D76B /* CSE 335 Project */,
 				56CD329C2426DE680097D76B /* Products */,
+				84418C9B8C0DD803377132F1 /* Pods */,
+				46731B8A04697F9E2CD12E17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +124,26 @@
 			children = (
 				56CD329E2426DE680097D76B /* AppDelegate.swift */,
 				56CD32A02426DE680097D76B /* SceneDelegate.swift */,
-				56CD32A22426DE680097D76B /* ViewController.swift */,
+				56C47F2524500BCA00FF1C1F /* Model */,
+				56C47F2424500B8800FF1C1F /* ViewControllers */,
+				56C47F2624500BED00FF1C1F /* TableViewCell */,
 				56CD32A42426DE680097D76B /* Main.storyboard */,
 				56CD32A72426DE690097D76B /* Assets.xcassets */,
 				56CD32A92426DE690097D76B /* LaunchScreen.storyboard */,
 				56CD32AC2426DE690097D76B /* Info.plist */,
+				56E4677D244E9B6900986322 /* GoogleService-Info.plist */,
+				56CD32B22426DF180097D76B /* hiking.jpeg */,
 			);
 			path = "CSE 335 Project";
+			sourceTree = "<group>";
+		};
+		84418C9B8C0DD803377132F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2858C8ADE686606790C65613 /* Pods-CSE 335 Project.debug.xcconfig */,
+				A3AFFD04A02F82B51099CC16 /* Pods-CSE 335 Project.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56CD32AF2426DE690097D76B /* Build configuration list for PBXNativeTarget "CSE 335 Project" */;
 			buildPhases = (
+				DE1C9FAB7F0DAB7074818B83 /* [CP] Check Pods Manifest.lock */,
 				56CD32972426DE680097D76B /* Sources */,
 				56CD32982426DE680097D76B /* Frameworks */,
 				56CD32992426DE680097D76B /* Resources */,
+				8F6F76556838F593BBC3D6F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +207,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				56CD32AB2426DE690097D76B /* LaunchScreen.storyboard in Resources */,
+				56CD32B32426DF180097D76B /* hiking.jpeg in Resources */,
+				56E4677E244E9B6900986322 /* GoogleService-Info.plist in Resources */,
 				56CD32A82426DE690097D76B /* Assets.xcassets in Resources */,
 				56CD32A62426DE680097D76B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F6F76556838F593BBC3D6F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSE 335 Project/Pods-CSE 335 Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSE 335 Project/Pods-CSE 335 Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSE 335 Project/Pods-CSE 335 Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE1C9FAB7F0DAB7074818B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSE 335 Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56CD32972426DE680097D76B /* Sources */ = {
@@ -141,6 +266,13 @@
 				56CD32A32426DE680097D76B /* ViewController.swift in Sources */,
 				56CD329F2426DE680097D76B /* AppDelegate.swift in Sources */,
 				56CD32A12426DE680097D76B /* SceneDelegate.swift in Sources */,
+				56CD32BB2426EE550097D76B /* MyTrailsViewController.swift in Sources */,
+				56056FE3244FA68C0015BD10 /* MapViewController.swift in Sources */,
+				56CD32B72426E1420097D76B /* Model.swift in Sources */,
+				56056FDF244F8E750015BD10 /* MyTrailsTableViewCell.swift in Sources */,
+				56C47F1F244FC5C400FF1C1F /* NearbyViewController.swift in Sources */,
+				56CD32B92426E9190097D76B /* AddTrailViewController.swift in Sources */,
+				56056FE1244F945C0015BD10 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		56CD32B02426DE690097D76B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2858C8ADE686606790C65613 /* Pods-CSE 335 Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +433,7 @@
 		};
 		56CD32B12426DE690097D76B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AFFD04A02F82B51099CC16 /* Pods-CSE 335 Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

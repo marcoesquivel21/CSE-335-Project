@@ -1,0 +1,6 @@
+framework module Pods_CSE_335_Project {
+  umbrella header "Pods-CSE 335 Project-umbrella.h"
+
+  export *
+  module * { export * }
+}
