@@ -1,7 +1,7 @@
 # CSE-335-Project
 FInal project for Principals of Mobile App Develpment Spring 2020
 
-iOS application designed for journaling hikes as well as finding hikes to your nearby location.
+iOS application designed for journaling hikes as well as finding hikes near you.
 
 Technologies/Practives: MVC Architecture, Consumption of REST API, Geocoding, and a Firebase backend to name the more important ones. 
 
